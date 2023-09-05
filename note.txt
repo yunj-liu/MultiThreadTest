@@ -1,0 +1,24 @@
+09MultiThreadTest
+template choose Qt Widgets Application
+Build Syste choose CMake
+Class name:MainWidget, Base class choose QWidget, check Generate form checkbox
+Kit choose MSVC2019
+VCS git
+
+matlab function name: SemiCL6Func
+matlab m file name: SemiCL6Func.m
+matlab project name: SemiCL6Func
+deploy matlab project directory name: F:\MatlabTest\SemiCL6Func_vc19
+
+function [f1_x, f1_ph1, f1_ph2, f1_ph3, ...
+          f2_x, f2_E1, f2_E2, f2_E3, ...
+          f3_x, f3_HH1, f3_HH2, f3_HH3, f3_LH1, ...
+          f4_x, f4_gai, ...
+          f5_x, f5_p, ...
+          f6_x, f6_YYy, f6_mm1, ...
+          f7_x, f7_TT] = SemiCL6Func()
+
+SemiCL6Func.h
+extern LIB_SemiCL6Func_CPP_API void MW_CALL_CONV SemiCL6Func(int nargout, mwArray& f1_x, mwArray& f1_ph1, mwArray& f1_ph2, mwArray& f1_ph3, mwArray& f2_x, mwArray& f2_E1, mwArray& f2_E2, mwArray& f2_E3, mwArray& f3_x, mwArray& f3_HH1, mwArray& f3_HH2, mwArray& f3_HH3, mwArray& f3_LH1, mwArray& f4_x, mwArray& f4_gai, mwArray& f5_x, mwArray& f5_p, mwArray& f6_x, mwArray& f6_YYy, mwArray& f6_mm1, mwArray& f7_x, mwArray& f7_TT);
+
+
